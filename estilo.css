@@ -1,0 +1,31 @@
+/* Definindo um esquema de cores mais coeso */
+body {
+    background: rgb(38, 61, 100);
+    color: white; /* Alterando a cor do texto para branco para melhor contraste */
+    font: normal 16px Arial, sans-serif; /* Ajustando o tamanho da fonte e a fonte padrão */
+}
+
+/* Estilo do cabeçalho */
+header {
+    color: rgb(13, 236, 165);
+    text-align: center;
+    padding: 20px 0; /* Adicionando um espaçamento ao redor do cabeçalho */
+}
+
+/* Estilo da seção principal */
+section {
+    background: rgba(255, 255, 255, 0.9); /* Utilizando um fundo branco com transparência */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 80%; /* Usando uma largura máxima em vez de uma largura fixa */
+    margin: 20px auto; /* Centralizando e adicionando margens */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajustando a sombra para um efeito mais suave */
+    color: rgb(38, 61, 100); /* Definindo a cor do texto para a mesma cor do fundo */
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    font-style: italic;
+    padding: 20px 0; /* Adicionando espaçamento ao redor do rodapé */
+}
